@@ -1,0 +1,26 @@
+{
+  "json": {},
+  "markdown": {},
+  "excludes": ["**/*-lock.json"],
+  "roslyn": {
+    "csharp.newLineForCatch": false,
+    "csharp.newLineForClausesInQuery": false,
+    "csharp.newLineForElse": false,
+    "csharp.newLineForFinally": false,
+    "csharp.newLineForMembersInAnonymousTypes": false,
+    "csharp.newLineForMembersInObjectInit": false,
+    "csharp.newLinesForBracesInAccessors": false,
+    "csharp.newLinesForBracesInAnonymousMethods": false,
+    "csharp.newLinesForBracesInAnonymousTypes": false,
+    "csharp.newLinesForBracesInControlBlocks": false,
+    "csharp.newLinesForBracesInLambdaExpressionBody": false,
+    "csharp.newLinesForBracesInMethods": false,
+    "csharp.newLinesForBracesInObjectCollectionArrayInitializers": false,
+    "csharp.newLinesForBracesInProperties": false,
+    "csharp.newLinesForBracesInTypes": false
+  },
+  "plugins": [
+    "https://plugins.dprint.dev/markdown-0.24.0.wasm",
+    "https://plugins.dprint.dev/roslyn-0.22.1.json@1ea1bd6decaad034aa5bc46a32df719b84d38e6d277f494655d4b3e2a2139070"
+  ]
+}
